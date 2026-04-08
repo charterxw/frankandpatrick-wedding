@@ -1,0 +1,12 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[76574],{
+
+/***/ 578725:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var SBc=__webpack_require__(186901).EW;var TBc;TBc=Symbol.iterator;
+__c.f0=class{static G(a){__c.L(a,{Ro:SBc,pu:SBc})}get Ro(){return this.$yb().map(a=>{let b=this.R$a.get(a);b==null&&(b=`${this.JMb++}`,this.R$a.set(a,b));return{id:b,ref:a}})}get pu(){const a=new Map;this.Ro.forEach((b,c)=>b&&a.set(b.ref,c));return a}oo(a){return __c.y(this.pu.get(a),"ref not found")}get empty(){return!this.Ro.length}count(){return this.Ro.length}toArray(){return this.Ro.map(a=>a.ref)}Si(){return new Map(this.map((a,b)=>[b,a]))}get CX(){return this.Ro[0]?.ref}get $Y(){return this.Ro[this.Ro.length-1]?.ref}first(a){return a?
+this.Ro.find(b=>a(b.ref))?.ref:this.CX}last(a){if(!a)return this.$Y;const b=this.Ro;for(let c=b.length-1;c>=0;c--){const d=b[c];if(a(d.ref))return d.ref}}next(a,b){const c=this.Ro;for(a=this.oo(a)+1;a<c.length;a++){const d=c[a];if(!b||b(d.ref))return d.ref}}previous(a,b){const c=this.Ro;for(a=this.oo(a)-1;a>=0;a--){const d=c[a];if(!b||b(d.ref))return d.ref}}nf(a,b){a=this.pu.get(a);b=this.pu.get(b);__c.w(a!=null);__c.w(b!=null);return a<b?-1:a>b?1:0}er(a){return this.Ro[this.oo(a)].id}has(a){return this.pu.has(a)}Is(a){return new __c.lO(this,
+a)}project(a){return new __c.mO(this,a)}map(a){return this.Ro.map(({ref:b,id:c})=>a(b,c))}flatMap(a){return this.Ro.flatMap(({ref:b,id:c})=>a(b,c))}filter(a){return this.Ro.filter(b=>a(b.ref,b.id)).map(b=>b.ref)}forEach(a){this.Ro.forEach((b,c)=>a(b.ref,b.id,c))}reduce(a,b){return this.Ro.reduce((c,d)=>a(c,d.ref,d.id),b)}some(a){return this.Ro.some(b=>a(b.ref,b.id))}every(a){return this.Ro.every(b=>a(b.ref,b.id))}[TBc](){return this.toArray()[Symbol.iterator]()}constructor(a){this.$yb=a;this.JMb=
+(__c.f0.G(this),0);this.R$a=new WeakMap}};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/d6fcac47ab4bc433.js.map
